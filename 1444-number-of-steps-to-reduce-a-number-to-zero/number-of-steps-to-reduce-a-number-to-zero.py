@@ -6,12 +6,11 @@ class Solution:
                 break
             elif num%2==0:
                 num/=2
-                count+=1
             elif num==0:
                 break
             else:
                 num-=1
-                count+=1
+            count+=1
         return count
             
         
